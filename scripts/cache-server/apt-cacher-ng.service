@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone='no'?>
+<!DOCTYPE service-group SYSTEM "avahi-service.dtd">
+<service-group>
+ <name replace-wildcards="yes">apt-cacher-ng proxy on %h</name>
+ <service protocol="ipv4">
+  <type>_apt_proxy._tcp</type>
+  <port>3142</port>
+ </service>
+</service-group>

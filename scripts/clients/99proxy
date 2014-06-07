@@ -1,0 +1,4 @@
+Acquire::http::Proxy {
+    http://localhost:80 DIRECT;
+    http://127.0.0.1:80 DIRECT;
+};
